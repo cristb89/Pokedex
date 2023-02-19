@@ -1,3 +1,18 @@
+#lupa{
+    filter: invert(100%);
+}
+
+#boton-buscar:hover>#lupa{
+    filter: invert(0%);
+}
+
+#boton-buscar:focus>#lupa{
+    filter: invert(0%);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+
 #sobre-nosotros{
     top: 59%;
 }
