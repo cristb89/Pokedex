@@ -16,10 +16,6 @@
 
 /* LISANDRO */
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .card-pokemon{
    cursor: pointer;
    text-decoration: none;
