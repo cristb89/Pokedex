@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilo.css">
     <meta name="author" content="Grupo 2 - Pokedex">
@@ -16,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-danger">
             <div class="container">
-              <a class="navbar-brand fw-bold text-light" href="index.html">Pokedex</a>
+            <a class="navbar-brand fw-bold text-light" href="index.html">Pokedex</a>
               <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#boton-menu-hamburguesa" aria-controls="boton-menu-hamburguesa" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -48,6 +49,181 @@
             </div>
           </nav>
     </header>
+    <main class="container">
+        <section class="row justify-content-start">
+            <aside class="col-md-6 col-lg-3 mb-3 ">
+                <article class="card-pokemon border border-2">
+                    <div class="card-img">
+                        <img src="img/pokemones/001.png" alt="pokemon bulbasaur" />
+                    </div>
+                    <div class="card-info">
+                        <span class="pokemon-id">N.°001</span>
+                        <h3>Bulbasaur</h3>
+                        <div class="card-tipos">
+                            <span class="planta">Planta</span>
+                            <span class="veneno">Veneno</span>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto"
+                            data-bs-whatever="@mdo">
+                            Ver detalle
+                        </button>
+                    </div>
+                </article>
+            </aside>
+            <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card-pokemon border border-2">
+                    <div class="card-img">
+                        <img src="img/pokemones/002.png" alt="pokemon ivysaur" />
+                    </div>
+                    <div class="card-info">
+                        <span class="pokemon-id">N.°002</span>
+                        <h3>Ivysaur</h3>
+                        <div class="card-tipos">
+                            <span class="planta">Planta</span>
+                            <span class="veneno">Veneno</span>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto"
+                            data-bs-whatever="@mdo">
+                            Ver detalle
+                        </button>
+                    </div>
+                </article>
+            </aside>
+            <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card-pokemon border border-2">
+                    <div class="card-img">
+                        <img src="img/pokemones/003.png" alt="pokemon venusaur" />
+                    </div>
+                    <div class="card-info">
+                        <span class="pokemon-id">N.°003</span>
+                        <h3>Venusaur</h3>
+                        <div class="card-tipos">
+                            <span class="planta">Planta</span>
+                            <span class="veneno">Veneno</span>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto"
+                            data-bs-whatever="@mdo">
+                            Ver detalle
+                        </button>
+                    </div>
+                </article>
+            </aside>
+
+            <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card-pokemon border border-2">
+                    <div class="card-img">
+                        <img src="img/pokemones/004.png" alt="pokemon charmander" />
+                    </div>
+                    <div class="card-info">
+                        <span class="pokemon-id">N.°004</span>
+                        <h3>Charmander</h3>
+                        <div class="card-tipos">
+                            <span class="fuego">Fuego</span>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal"
+                            data-bs-whatever="@mdo">
+                            Ver detalle
+                        </button>
+                    </div>
+                </article>
+            </aside>
+
+            <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card-pokemon border border-2">
+                    <div class="card-img">
+                        <img src="img/pokemones/005.png" alt="pokemon charmeleon" />
+                    </div>
+                    <div class="card-info">
+                        <span class="pokemon-id">N.°005</span>
+                        <h3>Charmeleon</h3>
+                        <div class="card-tipos">
+                            <span class="fuego">Fuego</span>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto"
+                            data-bs-whatever="@mdo">
+                            Ver detalle
+                        </button>
+                    </div>
+                </article>
+            </aside>
+
+            <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card-pokemon border border-2">
+                    <div class="card-img">
+                        <img src="img/pokemones/006.png" alt="pokemon charizard" />
+                    </div>
+                    <div class="card-info">
+                        <span class="pokemon-id">N.°006</span>
+                        <h3>Charizard</h3>
+                        <div class="card-tipos">
+                            <span class="fuego">Fuego</span>
+                            <span class="volador">Volador</span>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto"
+                            data-bs-whatever="@mdo">
+                            Ver detalle
+                        </button>
+                </article>
+                </div>
+            </aside>
+            <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card-pokemon border border-2" >
+                    <div class="card-img">
+                        <img src="img/pokemones/007.png" alt="pokemon squirtle" />
+                    </div>
+                    <div class="card-info">
+                        <span class="pokemon-id">N.°007</span>
+                        <h3>Squirtle</h3>
+                        <div class="card-tipos">
+                            <span class="agua">Agua</span>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto"
+                            data-bs-whatever="@mdo">
+                            Ver detalle
+                        </button>
+                    </div>
+                </article>
+            </aside>
+            <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card-pokemon border border-2">
+                    <div class="card-img">
+                        <img src="img/pokemones/008.png" alt="pokemon Metapod" />
+                    </div>
+                    <div class="card-info">
+                        <span class="pokemon-id">N° 0010</span>
+                        <h3>Caterpie</h3>
+                        <div class="card-tipos">
+                            <span class="bicho">Bicho</span>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto"
+                            data-bs-whatever="@mdo">
+                            Ver detalle
+                        </button>
+                    </div>
+                </article>
+            </aside>
+
+            <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card-pokemon border border-2">
+                    <div class="card-img">
+                        <img src="img/pokemones/009.png" alt="pokemon Butterfree" />
+                    </div>
+                    <div class="card-info">
+                        <span class="pokemon-id">N° 0012</span>
+                        <h3>Butterfree</h3>
+                        <div class="card-tipos">
+                            <span class="bicho">Bicho</span>
+                            <span class="volador">Volador</span>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto"
+                            data-bs-whatever="@mdo">
+                            Ver detalle
+                        </button>
+                    </div>
+                </article>
+            </aside>
+        </section>
+    </main>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
