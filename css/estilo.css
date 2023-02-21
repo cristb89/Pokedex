@@ -118,4 +118,9 @@ h1{
         height: 250px;
         object-fit: cover;
     }
+
+    #img-404{
+        height: 250px;
+        object-fit: cover;
+    }
 }
