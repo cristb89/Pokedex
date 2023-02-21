@@ -13,3 +13,22 @@
 .navbar-toggler:focus {
     box-shadow: none;
 }
+.imagenes-slider{
+    object-fit:cover
+}
+
+.tamaño-slider{
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+  
+    
+}
+
+@media all and (max-width: 767px){
+    .banner-responsive{
+        height: 250px;
+        object-fit: cover;
+        object-position: 50%;
+    }
+}
