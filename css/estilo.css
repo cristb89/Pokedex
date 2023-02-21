@@ -76,6 +76,7 @@
 }
 .volador {
 	background-color: #3dc7ef;
+}
 
 /* NICO */
 
@@ -113,5 +114,12 @@ h1{
 } */
 
 #sobre-nosotros{
-    top: 59%;
+    top: 70%;
+}
+
+@media all and (max-width: 768px){
+    #portada-sobre-nosotros{
+        height: 250px;
+        object-fit: cover;
+    }
 }
