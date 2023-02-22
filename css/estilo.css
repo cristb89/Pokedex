@@ -14,7 +14,6 @@
     box-shadow: none;
 }
 
-/* GERO */
 #sliderPokedex img{
     height: 300px;
     object-fit: cover;
@@ -30,8 +29,6 @@
         object-fit: cover;
     }
 }
-
-/* LISANDRO */
 
 .card-pokemon{
    cursor: pointer;
@@ -91,40 +88,9 @@
 	background-color: #3dc7ef;
 }
 
-/* NICO */
-
-h1{
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.personaje{
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
 .badge{
     font-size: 0.9rem;
 }
-/* .img-pj{
-    width: 300px;
-    padding: 50px;
-    margin-right: 70px;
-    margin-left: 40px;
-} */
-
-/* .parrafo{
-    position: relative;
-    display: inline;
-}
-
-.p2{
-    left: 100px;
-}
-
-.p3{
-    top: 100px;
-} */
 
 #sobre-nosotros{
     top: 70%;

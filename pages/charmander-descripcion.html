@@ -16,14 +16,14 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-danger">
             <div class="container">
-              <a class="navbar-brand fw-bold text-light" href="index.html">Pokedex</a>
+              <a class="navbar-brand fw-bold text-light" href="../index.html">Pokedex</a>
               <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#boton-menu-hamburguesa" aria-controls="boton-menu-hamburguesa" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="boton-menu-hamburguesa">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" href="index.html">Inicio</a>
+                        <a class="nav-link active text-light" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle disabled text-light text-opacity-50" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,32 +37,60 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-light" href="pages/sobre-nosotros.html">Sobre nosotros</a>
+                        <a class="nav-link active text-light" href="../pages/sobre-nosotros.html">Sobre nosotros</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Buscar un pokemon" aria-label="Search">
-                  <button id="boton-buscar" class="btn btn-outline-light" type="submit"><img id="lupa" src="img/boton-buscar.svg" alt="Icono de lupa"></button>
+                  <button id="boton-buscar" class="btn btn-outline-light" type="submit"><img id="lupa" src="../img/boton-buscar.svg" alt="Icono de lupa"></button>
                 </form>
               </div>
             </div>
           </nav>
     </header>
-    <main>
-        <article class="container bg-warning">
-            <div class="row">
-                    <h1 class="col-12">Charmander N. 0004</h1>
-                    <div class="col-4">
-                        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20200307023245/Charmander.png" class="img-fluid w-75 personaje" alt="...">
+    <main class="container">
+        <section id="sliderPokedex" class="carousel slide tamaño-slider py-2">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#sliderPanaderia" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#sliderPokedex" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#sliderPokedex" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#sliderPokedex" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner rounded-5">
+              <div class="carousel-item active">
+                <img src="../img/imagenPokemonSlider0.jpg" class="d-block w-100" alt="Imagen Pokebola">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/imagenPokemonSlider1.jpg" class="d-block w-100" alt="Imagen Pokemon Graveler">
+            </div>
+              <div class="carousel-item">
+                <img src="../img/imagenPokemonSlider2.jpg" class="d-block w-100" alt="Imagen Pokemon Bulbasaur">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/imagenPokemonSlider3.jpg" class="d-block w-100" alt="Imagen Pokemon Pikachu">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#sliderPokedex" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#sliderPokedex" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+        </section>
+        <section class="pt-2 pb-4">
+            <article class="container rounded-2 bg-warning py-2">
+                <h2 class="text-center">Charmander Nº 0004</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="../img/pokemones/004.png" alt="Foto de Charmander">
                     </div>
-                    
-                    <div class="col-6">
+                    <div class="col-md-6" style="max-width: 550px;">
                         <p>Este Pokémon nace con una llama en la punta de la cola. Si se le apagara, fallecería.</p>
-                        <div class="card" style="width: 26rem; background-color:coral; color: white;" >
+                        <div class="card text-light mb-2" style="background-color: coral;">
+                            <div class="card-header">Version</div>
                             <div class="card-body">
-                              <h5 class="card-title">version</h5>
-                              <hr>
-                              <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
                                 <div class="row">
                                     <p class="card-text col-6">Altura <br>0.6m</p>
                                     <p class="card-text col-6">Categoria <br>Lagartija</p>
@@ -72,36 +100,39 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div>
                             <h5>Tipo</h5>
                             <span class="badge" style="background-color: orange;">Fuego</span>
                             <h5>Debilidad</h5>
                             <span class="badge" style="background-color:cornflowerblue;">Agua</span>
                             <span class="badge" style="background-color:darkgoldenrod;">Tierra</span>
                             <span class="badge" style="background-color: grey;">Roca</span>
-                        </div>  
+                        </div>
+                        </div>
                     </div>
-            </div>
-  
-            <div class="container mb-4" style="background-color: coral; border-radius: 10px; ">
-                <h2 class="mb-5">Evoluciones</h2>
-                <div class="row d-flex justify-content-between">
-                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20200307023245/Charmander.png" class="img-fluid" alt="..." style="width: 30%;">
-                    <img src="https://www.pnguniverse.com/wp-content/uploads/2021/02/Charmeleon-Pokemones.png" class="img-fluid" alt="..." style="width: 30%;">
-                    <img src="https://www.pngmart.com/files/12/Charizard-PNG-Free-Download.png" class="img-fluid" alt="..." style="width: 30%;">
                 </div>
-                <div class="d-flex justify-content-around">
-                    <p>N. 004</p>
-                    <p>N. 005</p>
-                    <p>N. 006</p>
+                <div class="container card my-2 py-2" style="background-color: coral;">
+                    <h2 class="text-center">Evoluciones</h2>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-sm-6 col-md-4">
+                            <img class="img-fluid" src="../img/pokemones/004.png" alt="Foto de Charmander">
+                            <h5>Charmander Nº 0004</h5>
+                            <span class="badge" style="background-color: orange;">Fuego</span>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img class="img-fluid" src="../img/pokemones/005.png" alt="Foto de Charmeleon">
+                            <h5>Charmeleon Nº 0005</h5>
+                            <span class="badge" style="background-color: orange;">Fuego</span>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img class="img-fluid" src="../img/pokemones/006.png" alt="Foto de Charizard">
+                            <h5>Charizard Nº 0006</h5>
+                            <span class="badge" style="background-color: orange;">Fuego</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="d-flex justify-content-around">
-                    <span class="badge" style="background-color: orange;">Fuego</span>
-                    <span class="badge" style="background-color: orange;">Fuego</span>
-                    <span class="badge" style="background-color: orange;">Fuego</span>
-                </div>
-            </div>
-        </article>
+            </article>
+        </section>
     </main>
     <footer class="bg-dark py-3">
         <p class="text-light text-center mb-0">&copy; Todos los derechos reservados.</p>
