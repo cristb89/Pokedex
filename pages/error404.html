@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <meta name="author" content="Cristian Brandan">
+    <meta name="description" content="Pokédex. ¡Usa la búsqueda avanzada para encontrar Pokémon por su tipo, debilidad, habilidad y demás datos!">
+    <meta name="keywords" content="Pokemon, Pokedex">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Error - Pokedex</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container">
+              <a class="navbar-brand fw-bold text-light" href="../index.html">Pokedex</a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#boton-menu-hamburguesa" aria-controls="boton-menu-hamburguesa" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="boton-menu-hamburguesa">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle disabled text-light text-opacity-50" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#1">Opción 1</a></li>
+                            <li><a class="dropdown-item" href="#2">Opción 2</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#3">Opción 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="sobre-nosotros.html">Sobre nosotros</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar un pokemon" aria-label="Search">
+                  <button id="boton-buscar" class="btn btn-outline-light" type="submit"><img id="lupa" src="../img/boton-buscar.svg" alt="Icono de lupa"></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="container py-4">
+            <div class="text-center">
+                <img id="img-404" class="img-fluid border border-danger rounded-5" src="../img/error-404.jpg" alt="Error, página no encontrada">
+                <p class="display-5 my-2">Algo salio mal</p>
+                <a class="btn btn-danger" href="../index.html">Volver al inicio</a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark py-3">
+        <p class="text-light text-center mb-0">&copy; Todos los derechos reservados.</p>
+    </footer>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
